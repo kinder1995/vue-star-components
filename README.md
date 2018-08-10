@@ -1,4 +1,4 @@
-# vue-star
+# vue-star-components
 一个相对比较简单的vue星星评分插件
 
 ```HTML

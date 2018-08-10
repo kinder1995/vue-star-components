@@ -6,7 +6,7 @@
 </template>
 <script>
 export default {
-  name: 'SimpleVueStar',
+  name: 'vueStar',
   props: {
     max: {
       type: Number,

@@ -7,14 +7,23 @@ npm install vue-star-components -S
 
 或者可以直接打开我的Star.vue文件，复制源码即可
 
-#### 引入组件
+#### 全局引入组件
 
 ```HTML
 import Star from 'vue-star-components'
+Vue.use(Star)
+```
+#### 使用组件
+```HTML
+<vue-star v-model="score"></vue-star>
+<vue-star v-model="score" :max="10"></vue-star>
 ```
 
-#### 注册组件
-```javascript
+#### 单独引入组件
+
+```HTML
+import { Star } from 'vue-star-components'
+
 export default {
   components: {
     Star
@@ -25,11 +34,11 @@ export default {
 
 #### 使用组件
 ```HTML
-<Star v-model="score"></Star>
-<Star v-model="score" :max="10"></Star>
+<star v-model="score"></star>
+<star v-model="score" :max="10"></star>
 ```
 
 ### 使用说明
     v-model 绑定值
-    组件做的相对比较简单，少了很多判断，可以自己添加一些判断
-    上面例子的第二行，max 可以设置星星的个数
+    max 显示星星的数量
+    目前组件做的相对比较简单，少了很多判断，不过暂时可以满足一般的需求

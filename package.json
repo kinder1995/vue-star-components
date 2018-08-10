@@ -1,0 +1,18 @@
+{
+  "name": "vue-star-components",
+  "version": "1.0.0",
+  "description": "一个相对比较简单的vue星星评分插件",
+  "keyword": "vue 星星评价组件",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "kinder",
+  "private": false,
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kinder1995/vue-star-components.git"
+  },
+  "homepage": "https://github.com/kinder1995/vue-star-components#readme"
+}

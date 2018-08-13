@@ -5,7 +5,6 @@
 npm install vue-star-components -S
 ```
 
-或者可以直接打开我的Star.vue文件，复制源码即可
 
 #### 全局引入组件
 
